@@ -1,17 +1,17 @@
 import React from 'react';
 
-import useWebAnimations, { bounce } from "@wellyshen/use-web-animations";
+import useWebAnimations, { bounceIn } from "@wellyshen/use-web-animations";
 
 
 const AnimatedHeading = ({text}) => {
 
-    const { keyframes, timing } = bounce;
+    const { keyframes, timing } = bounceIn;
     const { ref } = useWebAnimations({
       keyframes,
       timing: {
         ...timing,
         iterations: Infinity,
-        duration:5000,
+        duration:1500,
       },
     });
     return (
