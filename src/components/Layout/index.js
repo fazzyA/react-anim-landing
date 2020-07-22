@@ -1,7 +1,7 @@
 import React from 'react'
-import NavBar from '../Navbar'
+import NavBar from '../Navbar/index'
 import Footer from '../Footer'
-
+import './style.css'
 const Layout = (props) => {
     return (
         <div>

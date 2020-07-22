@@ -1,15 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Section1 from './components/Section1';
+import Menu from './Navbar';
+import Home from './Home';
+import AnimatedHeading from './AnimatedHeading';
 
 function App() {
   return (
-    <div className="App">
-      <Layout>
-        <Section1 />
-        </Layout>
-    </div>
+    <>
+    <Menu />
+   <Home />
+      
+      
+    </>
   );
 }
 

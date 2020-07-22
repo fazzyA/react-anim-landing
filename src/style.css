@@ -1,0 +1,14 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .target {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1.5rem;
+    user-select: none;
+  }
+  
