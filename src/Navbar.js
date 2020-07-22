@@ -8,7 +8,7 @@ const Menu = () => {
 <div className='container-fluid nav_bg'>
     <div className='row'>
         <div className='col-10 mx-auto'>
- <Navbar expand="lg">
+ <Navbar bg="light" expand="lg">
   <Navbar.Brand>Project 4B React Animation</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
