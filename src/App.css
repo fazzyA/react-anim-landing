@@ -1,8 +1,24 @@
 .row{
     margin-top: 30px!important;
 }
+.jumbo{
+    background-color: #fff!important;
+    border: 2px dashed #0F4848;
+    border-radius: 50px;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+.jumbo h1,.jumbo p{
+    color: #0F4848!important;
+}
+.home-bg{
+    background-color: #0F4848;
+}
 .section1{
-    background-color: #B6C2D4;
+    background-color: #F0F8F7;
+    padding-top: 20px;
+}.section2{
+    background-color: #0F4848;
     padding-top: 20px;
 }
 .rocketx{
@@ -19,13 +35,15 @@
 }
 #header h1{
     font-size: 48px;
+    color:white;
+
 }
 #header .brand-name{
     color: #3498db;
     margin-top: 10px;
 }
 #header h2{
-    color: #484848;
+    color:white;
     font-size: 24px;
 }
 .header-img{

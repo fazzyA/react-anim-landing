@@ -8,7 +8,7 @@ import Section1 from './Section1';
 import { Container } from 'react-bootstrap';
 import Section2 from './Section2';
 import Footer from './Footer';
-import Animation1 from './Animation1';
+import Client from './Client';
 import HeroImage from './HeroImage';
 
 function App() {
@@ -18,7 +18,8 @@ function App() {
     <Menu />
    <Home />
    <Section1 />
-     <Animation1 />
+   <Section2 />
+   <Client />
    <Footer />
    </Container>    
     </>

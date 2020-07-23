@@ -41,7 +41,7 @@ const Home = () => {
 
 return (
 <> 
-<Row className='justify-content-md-center'>
+<Row className='justify-content-md-center home-bg'>
     <Col xs={12} md={10} lg={10}>
  <span
         className="target"
