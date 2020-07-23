@@ -1,5 +1,4 @@
 import React from 'react'
-import sect2 from './images/HeroImage.js'
 import {Row, Col, Alert} from 'react-bootstrap';
 
 const Section2 = () => {
