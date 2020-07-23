@@ -19,8 +19,7 @@ export default class Rocket extends Component {
   render() {
     return (
       <div className='rocket'>
-          <a id="rocket"></a>
-         <svg viewBox="0 0 800 800" style={{ fill: 'none', stroke: '#2C284A'}}>
+         <svg viewBox="0 50 800 800" style={{ fill: 'none', stroke: 'blue'}}>
 
 <g id="bg">
 </g>

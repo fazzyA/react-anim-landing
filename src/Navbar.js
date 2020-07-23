@@ -1,13 +1,10 @@
 import React from 'react'
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
+import {Nav ,Row, Col, Navbar} from 'react-bootstrap';
 
 const Menu = () => {
     return (
 <>
-<div className='container-fluid nav_bg'>
-    <div className='row'>
-        <div className='col-10 mx-auto'>
+<Row><Col sm={12}>
  <Navbar bg="light" expand="lg">
  <Navbar.Brand>Project 4B React Animation</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -18,10 +15,7 @@ const Menu = () => {
     </Nav>
   </Navbar.Collapse>
 </Navbar>   
-            
-</div>
-    </div>
-</div>
+</Col></Row>         
 
  </>
     )

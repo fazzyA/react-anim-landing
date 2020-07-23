@@ -5,6 +5,7 @@ import logo from './images/location.png';
 import useWebAnimations from '@wellyshen/use-web-animations'
 import './style.css'
 import AnimatedHeading from './AnimatedHeading';
+import {Row, Col} from 'react-bootstrap';
 
 const Home = () => {
 
@@ -40,8 +41,8 @@ const Home = () => {
 
 return (
 <> 
-<section id="header" className='d-flex align-items-center'>
- <div className='container-fluid nav_bg'>
+<Row className='justify-content-md-center'>
+    <Col xs={12} md={10} lg={10}>
  <span
         className="target"
         role="img"
@@ -50,8 +51,6 @@ return (
       >
         <img src={logo} alt='m' width='40px' height='30px' />
       </span>
-    <div className='row'>
-        <div className='col-10 mx-auto'>
             <div className='row'>
             <div className='col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column'>
             <h1>Get professional <AnimatedHeading text='with React' /></h1>
@@ -65,11 +64,7 @@ return (
                 <img src={imgHome} className='img-fluid' alt='home' />
             </div>
             </div>
-        </div>
-    </div>
- </div>
-</section>
-</>
+    </Col></Row></>
     )
 }
 
